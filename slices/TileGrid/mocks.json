@@ -1,0 +1,143 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TileGrid",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "transition real-time experiences",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "matrix 24/365 initiatives",
+          "spans": []
+        }
+      ],
+      "gap": "1"
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/ab386e16-bd83-414f-84dc-8b006fbac0f6_7AFC_EoBMj8.jpg?w=900&h=500"
+        },
+        "title": "A text of type \"\" that conveys ",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "engage interactive infrastructures",
+            "spans": []
+          }
+        ],
+        "avatar": {
+          "dimensions": {
+            "width": 50,
+            "height": 50
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/50"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "cta": "Read more",
+        "overlayColor": "",
+        "overlayColorStart": "rgba(173,252,234,0.5)",
+        "overlayColorEnd": "rgba(192,229,246, 0.5)",
+        "timestamp": "2014-08-06T15:24:28.642Z",
+        "tags": "articles,tutorials"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/e9af888c-3575-4a25-93c3-e70b7e6618fe_HN0tPzaZJNA.jpg?w=900&h=500"
+        },
+        "title": "A text of type \"\" that conveys ",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "streamline magnetic deliverables",
+            "spans": []
+          }
+        ],
+        "avatar": {
+          "dimensions": {
+            "width": 50,
+            "height": 50
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/50"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "cta": "Read more",
+        "overlayColor": "",
+        "overlayColorStart": "rgba(173,252,234,0.5)",
+        "overlayColorEnd": "rgba(192,229,246, 0.5)",
+        "timestamp": "2019-01-11T11:15:16.646Z",
+        "tags": "articles,tutorials"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/f9415b28-d28b-4536-8439-eba4ea388b5c_pH-nXzeOvlk.jpg?w=900&h=500"
+        },
+        "title": "A text of type \"\" that conveys ",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "cultivate front-end niches",
+            "spans": []
+          }
+        ],
+        "avatar": {
+          "dimensions": {
+            "width": 50,
+            "height": 50
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/50"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "cta": "Read more",
+        "overlayColor": "",
+        "overlayColorStart": "rgba(173,252,234,0.5)",
+        "overlayColorEnd": "rgba(192,229,246, 0.5)",
+        "timestamp": "2018-01-17T19:30:02.770Z",
+        "tags": "articles,tutorials"
+      }
+    ],
+    "slice_type": "tile_grid"
+  }
+]

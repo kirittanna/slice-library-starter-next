@@ -1,0 +1,36 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "SlideAwayHero",
+    "primary": {
+      "heading": "A text of type \"Heading\" that conveys ",
+      "text": [
+        {
+          "type": "heading1",
+          "text": "harness visionary synergies",
+          "spans": []
+        }
+      ],
+      "bgcolor": "#000",
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/8eb81fa6-3408-4f2a-a856-8319ca2b6f8c_YbGMa1Jz1yY.jpg?w=900&h=500"
+      },
+      "cta": "A text of type \"\" that conveys ",
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      }
+    },
+    "items": [],
+    "slice_type": "slide_away_hero"
+  }
+]

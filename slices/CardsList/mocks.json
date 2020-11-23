@@ -1,0 +1,221 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "CardsList",
+    "primary": {
+      "cardWidth": 375,
+      "title": [
+        {
+          "type": "heading1",
+          "text": "grow turn-key e-commerce",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "The point of using lorem ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here', making it look like readable english.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "bgColor": "INDIANRED",
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=900&h=500"
+        },
+        "title": "Read more",
+        "category": "Articles",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "spans": []
+          }
+        ],
+        "primaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "primaryCta": "Read more",
+        "secondaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "secondaryCta": "",
+        "variant": "text-only"
+      },
+      {
+        "bgColor": "LIGHTCORAL",
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/2df10730-6c0d-43fc-8a41-2f457d6b561f_KDxa0jt2UyI.jpg?w=900&h=500"
+        },
+        "title": "Read more",
+        "category": "Articles",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+            "spans": []
+          }
+        ],
+        "primaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "primaryCta": "Read more",
+        "secondaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "secondaryCta": "",
+        "variant": "bg-image"
+      },
+      {
+        "bgColor": "SALMON",
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=900&h=500"
+        },
+        "title": "Read more",
+        "category": "Articles",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "spans": []
+          }
+        ],
+        "primaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "primaryCta": "Read more",
+        "secondaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "secondaryCta": "",
+        "variant": "default"
+      },
+      {
+        "bgColor": "DARKSALMON",
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/2df10730-6c0d-43fc-8a41-2f457d6b561f_KDxa0jt2UyI.jpg?w=900&h=500"
+        },
+        "title": "Read more",
+        "category": "Articles",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+            "spans": []
+          }
+        ],
+        "primaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "primaryCta": "Read more",
+        "secondaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "secondaryCta": "",
+        "variant": "bg-image"
+      },
+      {
+        "bgColor": "LIGHTSALMON",
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=900&h=500"
+        },
+        "title": "Read more",
+        "category": "Articles",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "spans": []
+          }
+        ],
+        "primaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "primaryCta": "Read more",
+        "secondaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "secondaryCta": "",
+        "variant": "bg-image"
+      },
+      {
+        "bgColor": "CRIMSON",
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/2df10730-6c0d-43fc-8a41-2f457d6b561f_KDxa0jt2UyI.jpg?w=900&h=500"
+        },
+        "title": "Read more",
+        "category": "Articles",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+            "spans": []
+          }
+        ],
+        "primaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "primaryCta": "Read more",
+        "secondaryLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "secondaryCta": "",
+        "variant": "text-only"
+      }
+    ],
+    "slice_type": "cards_list"
+  }
+]

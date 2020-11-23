@@ -1,0 +1,85 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ProjectShowcase",
+    "primary": {},
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/101/1024/1024"
+        },
+        "url": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "timestamp": "2016-09-05T21:15:42.853Z",
+        "bgcolor": "#8a7d1",
+        "title": "Showcase Project 1"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/102/1024/1024"
+        },
+        "url": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "timestamp": "2016-09-05T21:15:42.853Z",
+        "bgcolor": "#8a7d1",
+        "title": "Showcase Project 2"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/103/1024/1024"
+        },
+        "url": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "timestamp": "2016-09-05T21:15:42.853Z",
+        "bgcolor": "#8a7d1",
+        "title": "Showcase Project 3"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/104/1024/1024"
+        },
+        "url": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "timestamp": "2016-09-05T21:15:42.853Z",
+        "bgcolor": "#8a7d1",
+        "title": "Showcase Project 4"
+      }
+    ],
+    "slice_type": "project_showcase"
+  }
+]

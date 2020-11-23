@@ -1,0 +1,66 @@
+{
+  "id": "split_screen",
+  "type": "SharedSlice",
+  "name": "SlideAwayHero",
+  "description": "SlideAwayHero",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SlideAwayHero",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "text": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColor": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Color"
+        },
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "cta": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "cta",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

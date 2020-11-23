@@ -1,0 +1,68 @@
+{
+  "id": "masonry_grid_gallery",
+  "type": "SharedSlice",
+  "name": "PhotoGrid",
+  "description": "PhotoGrid",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PhotoGrid",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Gallery Image",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "medium",
+                "width": 768,
+                "height": 0
+              },
+              {
+                "name": "large",
+                "width": 1200,
+                "height": 0
+              }
+            ]
+          },
+          "type": "Image"
+        },
+        "date": {
+          "config": {
+            "label": "Date",
+            "placeholder": ""
+          },
+          "type": "Timestamp"
+        },
+        "caption": {
+          "config": {
+            "label": "Caption",
+            "placeholder": "Short caption for the image"
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

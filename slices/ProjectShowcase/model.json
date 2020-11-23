@@ -1,0 +1,59 @@
+{
+  "id": "project_showcase",
+  "type": "SharedSlice",
+  "name": "ProjectShowcase",
+  "description": "ProjectShowcase",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ProjectShowcase",
+      "primary": {},
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "id": "image",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "url": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "url",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "timestamp": {
+          "type": "Timestamp",
+          "config": {
+            "label": "",
+            "id": "timestamp",
+            "placeholder": ""
+          }
+        },
+        "bgcolor": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "bgcolor",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "content_slider",
+  "type": "SharedSlice",
+  "name": "ContentSlider",
+  "description": "ContentSlider",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContentSlider",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        },
+        "ratio": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "default_value": "half",
+            "options": [
+              "half",
+              "one-third",
+              "quarter"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "id": "image",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "section": {
+          "config": {
+            "label": "Section",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "summary": {
+          "config": {
+            "label": "Summary",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "cta": {
+          "config": {
+            "label": "CTA",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "flipped": {
+          "type": "Boolean",
+          "config": {
+            "label": "",
+            "id": "flipped",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
+        },
+        "bgColor": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "bgColor",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

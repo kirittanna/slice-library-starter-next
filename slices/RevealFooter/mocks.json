@@ -1,0 +1,51 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "RevealFooter",
+    "primary": {
+      "twitter": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "behance": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "dribbble": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "github": {
+        "link_type": "Web",
+        "url": ""
+      },
+      "linkedin": {
+        "link_type": "Web",
+        "url": ""
+      },
+      "youtube": {
+        "link_type": "Web",
+        "url": ""
+      },
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "ctaLabel": "A text of type \"\" that conveys ",
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/22ff89b3-1f05-4d7a-8cb5-c362dedaae22_3XSuPA5WXAk.jpg?w=900&h=500"
+      }
+    },
+    "items": [],
+    "slice_type": "reveal_footer"
+  }
+]

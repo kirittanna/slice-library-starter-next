@@ -1,0 +1,400 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "PhotoGrid",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "morph front-end content",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "productize end-to-end niches",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/201/1280/640",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/201/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/201/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/202/1280/800",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/202/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/202/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/203/1280/768",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/203/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/203/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/204/1280/1024",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/204/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/204/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/209/1280/1600",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/209/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/209/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/206/1280/768",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/206/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/206/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/201/1280/640",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/201/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/201/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/202/1280/800",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/202/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/202/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/203/1280/768",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/203/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/203/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/204/1280/1024",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/204/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/204/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/209/1280/1600",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/209/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/209/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://picsum.photos/id/206/1280/768",
+          "medium": {
+            "dimensions": {
+              "width": 768,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/206/768/1024"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1200,
+              "height": 0
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://picsum.photos/id/206/1200/1600"
+          }
+        },
+        "date": "2015-11-29T02:32:13.228Z",
+        "caption": "A text of type \"Caption\" that conveys Short caption for the image"
+      }
+    ],
+    "slice_type": "photo_grid"
+  }
+]

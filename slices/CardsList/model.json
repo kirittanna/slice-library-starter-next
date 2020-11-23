@@ -1,0 +1,116 @@
+{
+  "id": "cards_list",
+  "type": "SharedSlice",
+  "name": "CardsList",
+  "description": "CardsList",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CardsList",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "category": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "category",
+            "placeholder": ""
+          }
+        },
+        "summary": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "summary",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "primaryLink": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "primaryLink",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "primaryCta": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "primaryCta",
+            "placeholder": ""
+          }
+        },
+        "secondaryLink": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "secondaryLink",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "secondaryCta": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "secondaryCta",
+            "placeholder": ""
+          }
+        },
+        "variant": {
+          "config": {
+            "label": "Variant",
+            "placeholder": "",
+            "default_value": "default",
+            "options": [
+              "default",
+              "text-only",
+              "bg-image"
+            ]
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

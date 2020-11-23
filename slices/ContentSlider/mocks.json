@@ -1,0 +1,110 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ContentSlider",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "engage holistic supply-chains",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "evolve dynamic action-items",
+          "spans": []
+        }
+      ],
+      "ratio": "half"
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/4b7f2693-f585-4740-9980-3656c4c72dec_JXow53j6AtE.jpg?w=900&h=500"
+        },
+        "section": "A text of type \"Section\" that conveys ",
+        "title": "A text of type \"Title\" that conveys ",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "evolve B2C applications",
+            "spans": []
+          }
+        ],
+        "cta": "A text of type \"CTA\" that conveys ",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "flipped": false,
+        "bgColor": "#6802df"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=900&h=500"
+        },
+        "section": "A text of type \"Section\" that conveys ",
+        "title": "A text of type \"Title\" that conveys ",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "engage impactful eyeballs",
+            "spans": []
+          }
+        ],
+        "cta": "A text of type \"CTA\" that conveys ",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "flipped": false,
+        "bgColor": "#7892f9"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/f9415b28-d28b-4536-8439-eba4ea388b5c_pH-nXzeOvlk.jpg?w=900&h=500"
+        },
+        "section": "A text of type \"Section\" that conveys ",
+        "title": "A text of type \"Title\" that conveys ",
+        "summary": [
+          {
+            "type": "heading1",
+            "text": "revolutionize revolutionary web services",
+            "spans": []
+          }
+        ],
+        "cta": "A text of type \"CTA\" that conveys ",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "flipped": true,
+        "bgColor": "#f2ca29"
+      }
+    ],
+    "slice_type": "content_slider"
+  }
+]

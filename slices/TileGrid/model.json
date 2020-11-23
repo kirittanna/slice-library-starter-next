@@ -1,0 +1,141 @@
+{
+  "id": "tile_grid",
+  "type": "SharedSlice",
+  "name": "TileGrid",
+  "description": "TileGrid",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TileGrid",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        },
+        "gap": {
+          "config": {
+            "label": "Gap",
+            "placeholder": "",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "id": "image",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "summary": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "summary",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "avatar": {
+          "type": "Image",
+          "config": {
+            "id": "avatar",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "cta": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "cta",
+            "placeholder": ""
+          }
+        },
+        "overlayColor": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "overlayColor",
+            "placeholder": ""
+          }
+        },
+        "overlayColorStart": {
+          "type": "Image",
+          "config": {
+            "id": "overlayColorStart",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "overlayColorEnd": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "overlayColorEnd",
+            "placeholder": ""
+          }
+        },
+        "timestamp": {
+          "type": "Timestamp",
+          "config": {
+            "label": "",
+            "id": "timestamp",
+            "placeholder": ""
+          }
+        },
+        "tags": {
+          "config": {
+            "label": "",
+            "placeholder": "Comma separated list of tags"
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

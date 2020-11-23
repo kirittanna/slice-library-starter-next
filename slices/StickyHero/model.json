@@ -1,0 +1,62 @@
+{
+  "id": "sticky_hero",
+  "type": "SharedSlice",
+  "name": "StickyHero",
+  "description": "StickyHero",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "StickyHero",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "Lorem Ipsum is simply dummy text.",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "effect": {
+          "config": {
+            "label": "Effect",
+            "placeholder": "",
+            "default_value": "none",
+            "options": [
+              "none",
+              "overlay",
+              "scale"
+            ]
+          },
+          "type": "Select"
+        },
+        "textVariant": {
+          "config": {
+            "label": "Text Variant",
+            "placeholder": "Text variant defined in theme"
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

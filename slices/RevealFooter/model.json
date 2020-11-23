@@ -1,0 +1,96 @@
+{
+  "id": "reveal_footer",
+  "type": "SharedSlice",
+  "name": "RevealFooter",
+  "description": "RevealFooter",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RevealFooter",
+      "primary": {
+        "twitter": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "behance": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "behance",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "dribbble": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "github": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "github",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "linkedin": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "linkedin",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "youtube": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "youtube",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "ctaLabel": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "ctaLabel",
+            "placeholder": ""
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "id": "image",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
