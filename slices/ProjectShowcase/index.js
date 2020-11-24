@@ -46,12 +46,15 @@ export const ProjectShowcaseSlice = ({ slice: {
           sx={{
             position: 'relative',
             padding: '10px 20px',
-            alignItems: 'center',
+            alignItems: 'flex-start',
             zIndex: 10,
             flexDirection: 'column',
+            margin: '0 auto',
+            maxWidth: '50%',
 
             '@media screen and (min-width: 62em)': {
-              padding: '20px 40px',
+              alignItems: 'center',
+              maxWidth: '100%',
               flexDirection: 'row',
             }
           }}>
