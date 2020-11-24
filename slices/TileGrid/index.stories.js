@@ -16,10 +16,13 @@ mocks.forEach((variation) => {
   .add(variation.name, () =>
   <>
     <LinkTo kind="Components/Tile" story="Default">See Tile Component</LinkTo>
-    <LinkTo story="Preset 3">See 3 Tiles Preset</LinkTo>
-    <LinkTo story="Preset 4">See 4 Tiles Preset</LinkTo>
-    <LinkTo story="Preset 5">See 5 Tiles Preset</LinkTo>
-    <LinkTo story="Preset Flex">See 7 Tiles Preset</LinkTo>
+    Layout Presets applied automatically depending on the number of tiles configured.
+    <ul>
+      <li><LinkTo story="Preset 3">with 3 tiles</LinkTo></li>
+      <li><LinkTo story="Preset 4">with 4 tiles</LinkTo></li>
+      <li><LinkTo story="Preset 5">with 5 tiles</LinkTo></li>
+      <li><LinkTo story="Preset Flex">with 6 tiles</LinkTo></li>
+    </ul>
     <Component slice={variation} />
   </>);
 });
