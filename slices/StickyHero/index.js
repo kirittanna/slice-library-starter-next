@@ -34,7 +34,7 @@ const StickyHero = ({ slice: {
         top: '0',
         width: '100%',
         height: '100%',
-        backgroundColor: 'white',
+        backgroundColor: 'background',
         opacity: isSticky ? 0.5 : 0,
         transition: 'opacity 250ms ease-out'
       }

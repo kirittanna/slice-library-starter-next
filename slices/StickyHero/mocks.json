@@ -28,5 +28,35 @@
     },
     "items": [],
     "slice_type": "sticky_hero"
+  },
+  {
+    "id": "default-slice-overlay",
+    "name": "Overlay Effect",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8627",
+    "description": "StickyHero",
+    "primary": {
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/5d998b82-32ee-4a44-b31e-07414eb2b96f_PI7FJJjGtt4.jpg?w=900&h=500"
+      },
+      "heading": "A text of type \"Heading\" that conveys ",
+      "text": [
+        {
+          "type": "heading1",
+          "text": "deploy compelling relationships",
+          "spans": []
+        }
+      ],
+      "effect": "overlay",
+      "textVariant": "A text of type \"Text Variant\" that conveys Text variant defined in theme"
+    },
+    "items": [],
+    "slice_type": "sticky_hero"
   }
 ]

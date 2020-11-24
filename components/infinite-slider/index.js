@@ -34,7 +34,7 @@ export default function Slider({ items, width = 600, visible = 4, style, childre
         return {
           x: (-y % (width * items.length)) + width * rank,
           immediate: vy < 0 ? prevPosition > position : prevPosition < position,
-          config: { tension: (1 + items.length - configPos) * 100, friction: 30 + configPos * 40 }
+          config: { tension: (1 + items.length - configPos) * 100, friction: 30 + configPos * 30 }
         }
       })
       prev.current = [firstVis, firstVisIdx]
