@@ -4,7 +4,7 @@ import { number } from 'prop-types';
 
 const Preset = ({children, gap}) => (
   <Grid
-    columns={[2, '1fr 2fr']}
+    columns={[1, 3]}
     gap={gap}
     sx={{
       marginBottom: 5
@@ -20,6 +20,12 @@ const Preset = ({children, gap}) => (
     </Box>
     <Box>
       {children[2]}
+    </Box>
+    <Box>
+      {children[3]}
+    </Box>
+    <Box>
+      {children[4]}
     </Box>
   </Grid>
 )

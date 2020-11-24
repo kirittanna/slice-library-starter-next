@@ -10,7 +10,7 @@ import Heading from '../../components/heading'
 mocks.forEach(variation => {
   storiesOf(model.name, Component).add(variation.name, () => (
     <div>
-      <Heading level={1}>Lorem Ipsum</Heading>
+      <Heading level={1}>Scroll to the bottom</Heading>
       <Text sx={{marginBottom: '20px'}}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus
         dictum pulvinar. Praesent ac enim pulvinar, tristique tortor vel,

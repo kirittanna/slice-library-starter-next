@@ -10,7 +10,7 @@ mocks.forEach((variation) => {
   storiesOf(model.name, Component).add(variation.name, () =>
     <div>
       <main sx={{position: 'relative', zIndex: 10, backgroundColor: 'background', px: [1, 2, '100px']}}>
-        <Heading level={1}>Lorem Ipsum</Heading>
+        <Heading level={1}>Scroll to the bottom</Heading>
         <Text sx={{paddingBottom: '40px'}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus
           dictum pulvinar. Praesent ac enim pulvinar, tristique tortor vel,
