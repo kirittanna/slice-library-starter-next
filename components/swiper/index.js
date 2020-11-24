@@ -72,7 +72,7 @@ const Swiper = ({ items, itemWidth = 'full', visible = 4, style, children, sensi
         {springs.map(({ x, vel }, i) => (
           <a.div
             key={i}
-            style={{ ...styles.item, width, left : x, userSelect: 'none' }}
+            style={{ ...styles.item, width, transform: x.interpolate((x) => `translate3d(${x}px, 0px, 0px)`), userSelect: 'none' }}
             children={children(items[i], i)}
           />
         ))}

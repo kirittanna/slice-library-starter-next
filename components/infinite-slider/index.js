@@ -52,7 +52,7 @@ export default function Slider({ items, width = 600, visible = 4, style, childre
   return (
     <div {...bind()} style={{ ...style, ...styles.container }}>
       {springs.map(({ x, vel }, i) => (
-        <animated.div key={i} style={{ ...styles.item, width, left:x }} children={children(items[i], i)} />
+        <animated.div key={i} style={{ ...styles.item, width, transform: x.interpolate((x) => `translate3d(${x}px, 0px, 0px)`) }} children={children(items[i], i)} />
       ))}
     </div>
   )
