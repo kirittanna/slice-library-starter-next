@@ -58,9 +58,11 @@ const ThemeCard = ({
             mb: '10px'
           }}>
           <Image
+            draggable={false}
             src={image}
             sx={{
-              width: '100%'
+              width: '100%',
+              userSelect: 'none'
             }}
           />
         </Box>}

@@ -62,11 +62,15 @@ const ContentSection = ({
             width: sizes.image,
           }
         }}>
-        <Image src={image} sx={{
-          minHeight: '100%',
-          minWidth: '100%',
-          objectFit: 'cover'
-        }} />
+        <Image
+          draggable={false}
+          src={image}
+          sx={{
+            minHeight: '100%',
+            minWidth: '100%',
+            objectFit: 'cover',
+            userSelect: 'none'
+          }} />
       </Box>
       <Box sx={{
         flex: '1 0 100%',

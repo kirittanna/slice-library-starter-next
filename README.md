@@ -10,20 +10,31 @@
 - Tile Grid
 
 ## Component Features
-- Themeable via Theme-UI Spec (Dark and Light theme included)
+- Themeable via Theme-UI Spec (dark and light color mode available)
 - Performant Animations
-### Setting up Your Project
 
-Clone and build
-```bash
-$ git clone https://github.com/kirittanna/slices-folio
-$ cd slices-folio
-$ yarn install # if you use npm: `$ npm install`
+## Setting up Your Project
+
+- Clone and build
 ```
-View Storybook
-```bash
-$ yarn storybook
+git clone https://github.com/kirittanna/slices-folio
 ```
+- Change directory
+```
+cd slices-folio
+```
+- Install dependencies
+```
+yarn install # if you use npm: `$ npm install`
+```
+- Finally, view Storybook
+```
+yarn storybook
+```
+
+### Icons
+- https://heroicons.com/
+- https://tablericons.com/
 
 ## ☑️ &nbsp;Submission Checklist
 
