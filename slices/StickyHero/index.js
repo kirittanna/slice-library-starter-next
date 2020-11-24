@@ -10,7 +10,6 @@ import linkResolver from '../../library/link-resolver'
 import * as types from '../../library/types'
 
 const StickyHero = ({ slice: {
-  items,
   primary
 } }) => {
   const [ref, inView, entry] = useInView({
@@ -80,11 +79,21 @@ const StickyHero = ({ slice: {
 }
 
 StickyHero.propTypes = {
+  /** Slice Data */
   slice: shape({
+    /** Non-repeatable Zone Data */
     primary: shape({
+      /**
+       * Effect when image is within the viepwort
+       * Options - overlay | scale | none
+       * Defaults to scale
+       */
       effect: string.isRequired,
+      /** Image */
       image: types.image,
+      /** Text content */
       text: array.isRequired,
+      /** Text variant from theme definition */
       textVariant: string
     }).isRequired,
   }).isRequired,

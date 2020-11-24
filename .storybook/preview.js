@@ -5,7 +5,6 @@ import "!style-loader!css-loader!splitting/dist/splitting-cells.css";
 
 import { addDecorator } from "@storybook/react"
 import { withKnobs } from '@storybook/addon-knobs';
-import { DocsContainer, DocsPage } from '@storybook/addon-docs/blocks'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { addParameters } from '@storybook/client-api';
 import ThemeDecorator from './theme-decorator';
@@ -26,9 +25,5 @@ addParameters({
     viewports: {
       ...INITIAL_VIEWPORTS
     }
-  },
-  docs: {
-    container: DocsContainer,
-    page: DocsPage,
-  },
+  }
 });

@@ -1,5 +1,5 @@
 {
-  "id": "masonry_grid_gallery",
+  "id": "photo_grid",
   "type": "SharedSlice",
   "name": "PhotoGrid",
   "description": "PhotoGrid",

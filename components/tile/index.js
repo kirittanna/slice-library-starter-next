@@ -73,10 +73,23 @@ const Tile = ({
             justifyContent: 'space-between',
             flexShrink: 0,
             marginTop: "auto",
-            zIndex: 22
+            zIndex: 22,
+            flexDirection: 'column',
+
+            '@media screen and (min-width: 62em)': {
+              flexDirection: 'row'
+            }
           }}
         >
-          <Link href={link}>{cta}</Link>
+          <Box sx={{
+            marginBottom: '10px',
+
+            '@media screen and (min-width: 62em)': {
+              marginBottom: 0
+            }
+          }}>
+            <Link href={link}>{cta}</Link>
+          </Box>
           <Flex>
             {Array.isArray(tags) && tags.map(tag => (
               <Box>

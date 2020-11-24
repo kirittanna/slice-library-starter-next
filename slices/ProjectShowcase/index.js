@@ -1,15 +1,14 @@
 /** @jsx jsx */
 import { useState } from 'react';
-import { array, shape } from 'prop-types';
-import { Box, Flex, jsx } from 'theme-ui';
+import { arrayOf, object, shape } from 'prop-types';
+import { Flex, jsx } from 'theme-ui';
 import CurtainsSlider from '../../components/curtains-slider'
 import Heading from '../../components/heading'
 import Button from '../../components/button'
 import Pager from '../../components/pager'
 
-const ProjectShowcaseSlice = ({ slice: {
-  items,
-  primary
+export const ProjectShowcaseSlice = ({ slice: {
+  items
 } }) => {
 
   const [activeIndex, setActiveIndex] = useState(0)
@@ -46,19 +45,29 @@ const ProjectShowcaseSlice = ({ slice: {
         <Flex
           sx={{
             position: 'relative',
-            padding: '20px 40px',
+            padding: '10px 20px',
             alignItems: 'center',
             zIndex: 10,
+            flexDirection: 'column',
+
+            '@media screen and (min-width: 62em)': {
+              padding: '20px 40px',
+              flexDirection: 'row',
+            }
           }}>
           <Heading level={1}>{items[activeIndex].title}</Heading>
           <span sx={{
             width: '100px',
             height: '2px',
             backgroundColor: 'primary',
-            mx: '20px'
+            mx: '20px',
+            display: 'none',
+
+            '@media screen and (min-width: 62em)': {
+              display: 'inline-block'
+            }
           }} />
           <Button
-            variant="secondary"
             styles={{
               flex: '1',
               pointerEvents: 'auto'
@@ -86,9 +95,15 @@ const ProjectShowcaseSlice = ({ slice: {
 }
 
 ProjectShowcaseSlice.propTypes = {
+  /** Slice Data */
   slice: shape({
+    /** Repeatable Zone Data */
+    items: arrayOf(shape({
+      image: object
+    })),
+    /** Non-repeatable Zone Data */
     primary: shape({
-      title: array.isRequired,
+
     }).isRequired,
   }).isRequired,
 };

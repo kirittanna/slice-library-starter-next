@@ -3,33 +3,20 @@ const theme = {
     '36em', '48em', '62em', '75em',
   ],
   badges: {
-    primary: {
-      color: 'text',
-      bg: 'primary',
-    },
     outline: {
       color: 'primary',
-      bg: 'background',
-      borderColor: 'primary',
-      boxShadow: 'inset 0 0 0 1px',
+      bg: 'accent',
+      borderRadius: '5px'
     },
   },
   buttons: {
-    primary: {
-      color: 'primary',
-      borderColor: 'primary'
-    },
-    secondary: {
-      color: 'secondary',
-      borderColor: 'background'
-    }
   },
   colors: {
     text: '#eee',
     background: '#0b0c10',
     primary: '#fff',
     secondary: '#ddd',
-    highlight: '#f30a49',
+    highlight: 'rgb(139, 0, 0)',
     accent: '#c89666',
     lightgrey: '#F5F5F5',
     darkgrey: '#111111',

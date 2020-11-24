@@ -5,5 +5,5 @@ module.exports = {
     '@storybook/addon-storysource',
     '@storybook/addon-viewport/register'
   ],
-  stories: ["../slices/**/*.stories.[tj]s", "../components/**/*.stories.[tj]s", "./*.stories.mdx"]
+  stories: ["../slices/**/*.stories.js", "../components/**/*.stories.js", "./*.stories.mdx"]
 }

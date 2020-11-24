@@ -13,7 +13,7 @@ const ActivePage = styled(animated.div)(
     left: 0,
     width: '20px',
     borderRadius: '20px',
-    backgroundColor: theme.colors.highlight
+    backgroundColor: theme.colors.accent
   })
 )
 
@@ -42,10 +42,6 @@ const Pager = ({ count, currentPage, onChange }) => {
 
   const pages = Array.from(Array(count).keys()).map(p => `page-${p}`);
 
-  useKeyDownOnly(["ArrowUp", "ArrowDown"], key => {
-    key === "ArrowUp" ? pageDown() : pageUp();
-  });
-
   const pageUp = () => {
     jumpToPage(Math.min(activePage + 1, count - 1));
   };
@@ -61,15 +57,16 @@ const Pager = ({ count, currentPage, onChange }) => {
   };
 
   useEffect(() => {
+    jumpToPage(currentPage)
     setBottom({
-      bottom: `${count * 30 - 20 - activePage * 30}px`,
+      bottom: `${count * 30 - 20 - currentPage * 30}px`,
       config: isForward ? front : back
     });
     setTop({
-      top: `${activePage * 30}px`,
+      top: `${currentPage * 30}px`,
       config: isForward ? back : front
     });
-  }, [activePage])
+  }, [currentPage])
 
   return (
     <Box sx={{

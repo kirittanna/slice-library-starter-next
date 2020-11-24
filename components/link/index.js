@@ -8,6 +8,7 @@ const styles = {
     display: 'inline',
     color: 'primary',
     textDecoration: 'none',
+    transition: 'transform 200ms ease-out'
   },
   icon: {
     marginRight: '5px',
@@ -18,6 +19,7 @@ const styles = {
   },
   short: {
     '&:hover': {
+      opacity: 0.9,
       '&::after, &::before': {
         width: '100%',
         left: 0

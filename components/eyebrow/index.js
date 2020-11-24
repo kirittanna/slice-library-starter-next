@@ -13,7 +13,7 @@ const Eyebrow = ({children}) => (
         width: '15%',
         height: '2px',
         mt: '5px',
-        backgroundColor: 'text'
+        backgroundColor: 'accent'
       }}></span>
     </Text>
   </span>

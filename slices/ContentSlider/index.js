@@ -11,8 +11,12 @@ const ContentSliderSlice = ({ slice: {
   primary
 } }) => (
   <section sx={{
-    position: 'relative',
+    display: 'flex',
+    flexDirection: 'column',
+    width: '100%',
     height: '100vh',
+    margin: '0 auto',
+    overflow: 'hidden'
   }}>
     <Box sx={{
       textAlign: 'center',
@@ -21,27 +25,22 @@ const ContentSliderSlice = ({ slice: {
       {primary.title && <Heading level={2}>{primary.title[0].text}</Heading>}
       {primary.description && <RichText render={primary.description} />}
     </Box>
-    <Box sx={{
-      height: '100%',
-      margin: '0 auto'
-    }}>
-      <Swiper items={items} itemWidth={'full'} visible={1}>
-        {(item, index) => (
-          <ContentSection
-            key={index}
-            flipped={item.flipped}
-            bgColor={item.bgColor}
-            ratio={primary.ratio}
-            title={item.title}
-            category={item.section}
-            summary={item.summary[0].text}
-            url={item.link.url}
-            image={item.image.url}
-            cta={item.cta}
-          />
-        )}
-      </Swiper>
-    </Box>
+    <Swiper items={items} itemWidth={'full'} visible={1}>
+      {(item, index) => (
+        <ContentSection
+          key={index}
+          flipped={item.flipped}
+          bgColor={item.bgColor}
+          ratio={primary.ratio}
+          title={item.title}
+          category={item.section}
+          summary={item.summary[0].text}
+          url={item.link.url}
+          image={item.image.url}
+          cta={item.cta}
+        />
+      )}
+    </Swiper>
   </section>
 );
 
