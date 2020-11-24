@@ -2,6 +2,7 @@ import ContentSection from './index'
 import { storiesOf } from '@storybook/react';
 
 storiesOf('Components/Content-Section', ContentSection)
+  .addParameters({ component: ContentSection })
   .add('Default', () => (
     <ContentSection
       bgColor="red"

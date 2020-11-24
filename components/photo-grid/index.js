@@ -58,7 +58,9 @@ const PhotoGrid = ({images, spacing}) => {
 }
 
 PhotoGrid.propTypes = {
+  /** List of images */
   images: array.isRequired,
+  /** Spacing */
   spacing: number
 }
 

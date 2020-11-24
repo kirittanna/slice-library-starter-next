@@ -4,6 +4,7 @@ import Swiper from './index'
 import ContentSection from '../content-section'
 
 storiesOf('Components/Swiper', Swiper)
+  .addParameters({ component: Swiper })
   .add('Default', () => (
     <Box sx={{
       height: '100vh',

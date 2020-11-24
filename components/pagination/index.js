@@ -53,9 +53,13 @@ const Pagination = ({ currentPage, count, onChange, showNav }) => {
 };
 
 Pagination.propTypes = {
+  /** Page count */
   count: number.isRequired,
+  /** Current page */
   currentPage: number.isRequired,
+  /** Callback on user-interaction */
   onChange: func,
+  /** Show / hide the next / prev navigation */
   showNav: bool
 };
 

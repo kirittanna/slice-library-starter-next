@@ -3,6 +3,7 @@ import { Box, Flex } from "theme-ui";
 import { storiesOf } from "@storybook/react";
 
 storiesOf("Components/Card", Card)
+  .addParameters({ component: Card })
   .add("Default", () => (
     <Card
       bgColor="red"

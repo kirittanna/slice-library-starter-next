@@ -7,7 +7,9 @@ import { jsx, Text } from 'theme-ui';
 import Heading from '../../components/heading'
 
 mocks.forEach((variation) => {
-  storiesOf(model.name, Component).add(variation.name, () =>
+  storiesOf(model.name, Component)
+  .addParameters({ component: Component })
+  .add(variation.name, () =>
     <div>
       <main sx={{position: 'relative', zIndex: 10, backgroundColor: 'background', px: [1, 2, '100px']}}>
         <Heading level={1}>Scroll to the bottom</Heading>

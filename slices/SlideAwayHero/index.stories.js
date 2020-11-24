@@ -6,7 +6,9 @@ import { Text } from "theme-ui";
 import Heading from "../../components/heading";
 
 mocks.forEach(variation => {
-  storiesOf(model.name, Component).add(variation.name, () => (
+  storiesOf(model.name, Component)
+  .addParameters({ component: Component })
+  .add(variation.name, () => (
     <Component slice={variation}>
       <Heading level={1}>Lorem Ipsum</Heading>
       <Text sx={{marginBottom: '20px'}}>

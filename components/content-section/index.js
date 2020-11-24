@@ -18,7 +18,7 @@ const ContentSection = ({
 }) => {
 
   const getSizes = () => {
-    switch(ratio) {
+    switch(ratio.toLowerCase()) {
       case 'half':
         return {
           image: '50%',
@@ -93,14 +93,27 @@ const ContentSection = ({
 }
 
 ContentSection.propTypes = {
+  /** Content on left, image on right */
   flipped: bool,
+  /** Background color for the content */
   bgColor: string,
+  /** Category (eyebrow) */
   category: string,
+  /** Title */
   title: string,
+  /** Summary */
   summary: string,
+  /** Image */
   image: string,
+  /** Link for the CTA */
   url: string,
+  /** CTA Label */
   cta: string,
+  /** Ratio for image to content
+   * Half
+   * One-Third
+   * Quarter
+   */
   ratio: oneOf([
     'half',
     'one-third',

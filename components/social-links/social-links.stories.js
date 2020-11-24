@@ -2,6 +2,7 @@ import SocialLinks from './index'
 import { storiesOf } from '@storybook/react';
 
 storiesOf('Components/Social-Links', SocialLinks)
+  .addParameters({ component: SocialLinks })
   .add('Default', () => (
     <SocialLinks channels={[
       {

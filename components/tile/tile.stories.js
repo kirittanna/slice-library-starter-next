@@ -5,6 +5,7 @@ import { Box, Flex, Grid, jsx } from 'theme-ui'
 import { number } from '@storybook/addon-knobs';
 
 storiesOf('Components/Tile', Tile)
+  .addParameters({ component: Tile })
   .add('Default', () =>
     <Tile
       avatar="https://picsum.photos/seed/picsum/50"

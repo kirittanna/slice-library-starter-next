@@ -2,6 +2,7 @@ import ImageGrid from './index'
 import { storiesOf } from '@storybook/react';
 
 storiesOf('Components/Image-Grid', ImageGrid)
+  .addParameters({ component: ImageGrid })
   .add('Default', () => (
     <ImageGrid
       images={[

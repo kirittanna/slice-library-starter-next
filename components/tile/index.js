@@ -134,15 +134,25 @@ const Tile = ({
 };
 
 Tile.propTypes = {
+  /** Image */
   image: string,
+  /** Title */
   title: string,
+  /** Summary */
   summary: string,
+  /** Avatar Image 50x50 */
   avatar: string,
+  /** Tags */
   tags: array,
+  /** Link for the CTA */
   link: string,
+  /** CTA Label */
   cta: string,
+  /** Color Overlay */
   overlayColor: string,
+  /** Top-Down Gradient Overlay Start Color */
   overlayColorStart: string,
+  /** Top-Down Gradient Overlay End Color */
   overlayColorEnd: string,
 }
 

@@ -35,6 +35,7 @@ SocialLinks.propTypes = {
       url: string.isRequired,
     })
   ).isRequired,
+  /** Custom styles */
   styles: object,
 }
 

@@ -101,8 +101,11 @@ const Pager = ({ count, currentPage, onChange }) => {
 }
 
 Pager.propTypes = {
+  /** Page count */
   count: number.isRequired,
+  /** Current page */
   currentPage: number.isRequired,
+  /** Callback for user-interaction */
   onChange: func
 }
 

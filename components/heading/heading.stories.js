@@ -2,6 +2,7 @@ import Heading from './index'
 import { storiesOf } from '@storybook/react';
 
 storiesOf('Components/Heading', Heading)
+  .addParameters({ component: Heading })
   .add('Levels', () => (
     <>
       <Heading level={1}>Heading 1</Heading>

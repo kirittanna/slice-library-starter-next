@@ -8,7 +8,9 @@ import { select, text } from "@storybook/addon-knobs";
 import Heading from '../../components/heading'
 
 mocks.forEach(variation => {
-  storiesOf(model.name, Component).add(variation.name, () => (
+  storiesOf(model.name, Component)
+  .addParameters({ component: Component })
+  .add(variation.name, () => (
     <div>
       <Heading level={1}>Scroll to the bottom</Heading>
       <Text sx={{marginBottom: '20px'}}>

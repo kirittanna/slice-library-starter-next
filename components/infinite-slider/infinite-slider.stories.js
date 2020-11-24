@@ -4,6 +4,7 @@ import InfiniteSlider from './index'
 import Card from '../card'
 
 storiesOf('Components/Infinite-Slider', InfiniteSlider)
+  .addParameters({ component: InfiniteSlider })
   .add('Default', () => (
     <Box sx={{
       width: '100%',

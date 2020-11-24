@@ -7,10 +7,12 @@ import Tile from '../../components/tile'
 import Preset3 from './preset3-1'
 import Preset4 from './preset4-1'
 import Preset5 from './preset5-1'
-import FlexPreset from './preset-flex'
+import PresetFlex from './preset-flex'
 
 mocks.forEach((variation) => {
-  storiesOf(model.name, Component).add(variation.name, () => <Component slice={variation} />);
+  storiesOf(model.name, Component)
+  .addParameters({ component: Component })
+  .add(variation.name, () => <Component slice={variation} />);
 });
 
 const SampleTile = () => (
@@ -28,7 +30,11 @@ const SampleTile = () => (
   />
 )
 
-storiesOf(model.name, Preset3)
+storiesOf(model.name, Component)
+  .addParameters({ component: Preset3 })
+  .addParameters({ component: Preset4 })
+  .addParameters({ component: Preset5 })
+  .addParameters({ component: PresetFlex })
   .add('Preset 3', () => (
     <Preset3>
       <SampleTile />
@@ -54,7 +60,7 @@ storiesOf(model.name, Preset3)
     </Preset5>
   ))
   .add('Flex Preset', () => (
-    <FlexPreset>
+    <PresetFlex>
       <SampleTile />
       <SampleTile />
       <SampleTile />
@@ -62,5 +68,5 @@ storiesOf(model.name, Preset3)
       <SampleTile />
       <SampleTile />
       <SampleTile />
-    </FlexPreset>
+    </PresetFlex>
   ))

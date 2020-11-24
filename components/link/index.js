@@ -71,6 +71,10 @@ const ThemeLink = ({ children, variant, ...props }) => {
 }
 
 ThemeLink.defaultProps = {
+  /** Variants
+   * short (default)
+   * multiline (use for multiline text only)
+   */
   variant: 'short'
 }
 
