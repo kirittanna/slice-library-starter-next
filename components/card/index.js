@@ -80,8 +80,8 @@ const ThemeCard = ({
           mx: '20px',
           marginBottom: '20px'
         }}>
-          {!!primaryLink && <Box mr={1}><Link href={primaryLink}>{primaryCta}</Link></Box>}
-          {!!secondaryLink && <Box mr={1}><Link href={secondaryLink}>{secondaryCta}</Link></Box>}
+          {!!primaryCta && <Box mr={1}><Link href={primaryLink}>{primaryCta}</Link></Box>}
+          {!!secondaryCta && <Box mr={1}><Link href={secondaryLink}>{secondaryCta}</Link></Box>}
         </footer>
       </Flex>
     </Card>
