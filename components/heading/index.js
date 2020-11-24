@@ -1,22 +1,12 @@
 /** @jsx jsx */
 import { jsx, Styled } from 'theme-ui'
+import { number } from 'prop-types'
 
 const styles = {
   position: 'relative',
   mx: '0',
   mt: '0',
-  mb: '10px',
-  // paddingLeft: '30px',
-
-  // '::before': {
-  //   content: '""',
-  //   position: 'absolute',
-  //   top: '50%',
-  //   left: 0,
-  //   width: '25px',
-  //   height: '2px',
-  //   backgroundColor: 'text',
-  // }
+  mb: '10px'
 }
 
 const Heading = ({ children, level }) => {
@@ -34,6 +24,18 @@ const Heading = ({ children, level }) => {
     case 6:
       return <Styled.h6 sx={styles}>{children}</Styled.h6>;
   }
+}
+
+Heading.propTypes = {
+  /** Heading level
+   * h1
+   * h2
+   * h3
+   * h4
+   * h5
+   * h6
+   */
+  level: number.isRequired
 }
 
 export default Heading;

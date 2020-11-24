@@ -1,6 +1,7 @@
 import React, { useRef, useCallback } from 'react'
 import { useGesture } from 'react-use-gesture'
 import { useSprings, animated } from 'react-spring'
+import { array, number, object } from 'prop-types'
 
 const styles = {
   container: { position: 'relative', height: '100%', width: '100%' },
@@ -55,4 +56,15 @@ export default function Slider({ items, width = 600, visible = 4, style, childre
       ))}
     </div>
   )
+}
+
+Slider.propTypes = {
+  /** List of items */
+  items: array,
+  /** Width of each item */
+  width: number,
+  /** Total visible items */
+  visible: number,
+  /** Styles for the container */
+  style: object
 }

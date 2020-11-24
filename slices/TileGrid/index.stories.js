@@ -2,6 +2,7 @@ import Component from './';
 import model from './model';
 import mocks from './mocks.json';
 import { storiesOf } from '@storybook/react';
+import LinkTo from '@storybook/addon-links/react';
 
 import Tile from '../../components/tile'
 import Preset3 from './preset3-1'
@@ -12,7 +13,15 @@ import PresetFlex from './preset-flex'
 mocks.forEach((variation) => {
   storiesOf(model.name, Component)
   .addParameters({ component: Component })
-  .add(variation.name, () => <Component slice={variation} />);
+  .add(variation.name, () =>
+  <>
+    <LinkTo kind="Components/Tile" story="Default">See Tile Component</LinkTo>
+    <LinkTo story="Preset 3">See 3 Tiles Preset</LinkTo>
+    <LinkTo story="Preset 4">See 4 Tiles Preset</LinkTo>
+    <LinkTo story="Preset 5">See 5 Tiles Preset</LinkTo>
+    <LinkTo story="Preset Flex">See 7 Tiles Preset</LinkTo>
+    <Component slice={variation} />
+  </>);
 });
 
 const SampleTile = () => (
@@ -59,7 +68,7 @@ storiesOf(model.name, Component)
       <SampleTile />
     </Preset5>
   ))
-  .add('Flex Preset', () => (
+  .add('Preset Flex', () => (
     <PresetFlex>
       <SampleTile />
       <SampleTile />

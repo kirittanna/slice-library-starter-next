@@ -89,14 +89,27 @@ const ThemeCard = ({
 }
 
 ThemeCard.propTypes = {
+  /** Background Color */
   bgColor: string,
+  /** Title */
   title: string,
+  /** Image */
   image: string,
+  /** Summary */
   summary: string,
+  /** Primary CTA link */
   primaryLink: string,
+  /** Primary CTA label */
   primaryCta: string,
+  /** Secondary CTA link */
   secondaryLink: string,
+  /** Secondary CTA label */
   secondaryCta: string,
+  /** Variant
+   * default
+   * text-only
+   * bg-image
+   */
   variant: oneOf([
     'default',
     'text-only',

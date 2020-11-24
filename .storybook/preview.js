@@ -7,6 +7,7 @@ import { addDecorator } from "@storybook/react"
 import { withKnobs } from '@storybook/addon-knobs';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import { withLinks } from '@storybook/addon-links'
 import { addParameters } from '@storybook/client-api';
 import ThemeDecorator from './theme-decorator';
 import { sortStories } from './utils'
@@ -15,6 +16,7 @@ const SORT_ORDER = {
   Introduction: ['Welcome', 'Getting Started', 'Contributing', 'Changelog']
 }
 
+addDecorator(withLinks);
 addDecorator(withKnobs);
 addDecorator(ThemeDecorator);
 addParameters({
